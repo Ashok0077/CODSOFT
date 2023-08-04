@@ -13,3 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+let isFlipped = false;
+
+function flipCard() {
+  const flipCardInner = document.getElementById("flip-card-inner");
+  if (isFlipped) {
+    flipCardInner.style.transform = "rotateY(0deg)";
+  } else {
+    flipCardInner.style.transform = "rotateY(180deg)";
+  }
+  isFlipped = !isFlipped;
+}
