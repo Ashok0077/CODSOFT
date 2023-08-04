@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 253, 158);
+    background: linear-gradient(to right,#FF9190 , #FFDD94);
     color: rgb(195, 25, 82);
     margin: 0;
     padding: 0;
@@ -76,11 +76,11 @@ section {
     border: 1px solid #9E579d;
 }
 
-#idcard .id-card .photo {
+#idcard .id-card img {
     flex: 1;
 }
 
-#idcard .id-card .photo img {
+#idcard .id-card  img {
     max-width: 200px;
     max-height: 200px;
 }
